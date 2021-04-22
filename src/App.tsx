@@ -37,8 +37,6 @@ export const TabContent: React.FC<TabContentProps> = () => {
 function App() {
   const [tabsIndex, setTabsIndex] = useState(0);
   const formProps = useValidationForm();
-  console.log("isValid", formProps[4]);
-  console.log("submit", formProps[6]);
 
   return (
     <div className="App">
